@@ -1,10 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './HelloWorld.jsx'
+import HelloWorld from './HelloWorld.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <HelloWorld titulo='My Friend'/>
   </React.StrictMode>,
 )
